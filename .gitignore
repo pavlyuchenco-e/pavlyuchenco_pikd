@@ -1,3 +1,5 @@
+# Created by https://www.gitignore.io/api/android
+### Android ###
 *.iml
 .gradle
 /local.properties
@@ -5,11 +7,16 @@
 /.idea/libraries
 /.idea/modules.xml
 /.idea/workspace.xml
-/.idea/navEditor.xml
+/.idea/tasks.xml
+/.idea/gradle.xml
 /.idea/assetWizardSettings.xml
+/.idea/dictionaries
+/.idea/.name
 .DS_Store
 /build
 /captures
 .externalNativeBuild
-.cxx
-local.properties
+
+# Your custom ignores
+.idea/
+ignore
